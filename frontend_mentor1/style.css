@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font: url("https://fonts.google.com/specimen/Outfit");
+}
+body{
+    background-color: hsl(220, 15%, 55%);
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    margin: 12px;
+}
+.container{
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 700px;
+
+}
+ .content{
+    background-color:hsl(0, 0%, 100%);
+    padding: 5px;
+    margin: 5px;
+} 
+h3{
+    font-weight: 800 bold;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+p{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+img{
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    width: 400px;
+    height: 400px;
+}
+@media screen and (max-width:375px){
+    .container{
+        background-color: White hsl(0, 0%, 100%);
+        border-radius: 5px solid hsl(228, 45%, 44%);
+        border: 10px;
+        width: 100%;
+    }
+    h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+    img{
+        border-radius: 15px;
+        border: 2px solid;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+@media screen and(max-width:31440px) and (min-width:375px){
+    p{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    img{
+        border-radius: 15px;
+        border: 2px solid;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
